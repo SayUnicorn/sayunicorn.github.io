@@ -1,11 +1,11 @@
-.banner { background-image:url(space.jpg) }  
+.banner { background-image:url(space.png) }  
 {
     box-sizing: border-box;
 }
 body {
     font-family: Times New Roman, Helvetica, sans-serif;
     margin: auto;
-    background-image: url(1200px-Hyades.jpg);
+    background-image: url(space.png);
     }
 .header {
     padding: 50px;
