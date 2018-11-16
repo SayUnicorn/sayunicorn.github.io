@@ -20,7 +20,8 @@ body {
    color: #111211;
 }
 .logo {
-  width: 400px;
+  height: 300px;
+    width: 600px;
  }
 .navbar {
     overflow: hidden;
