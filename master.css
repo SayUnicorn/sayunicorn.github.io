@@ -64,8 +64,7 @@ body {
     -ms-flex: 70%; 
     flex: 70%;
     background-color: white;
-    padding: 20px;
-    <div class="space"></div> 
+    padding: 10px;
     }
 }
 .footer {
