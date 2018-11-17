@@ -19,6 +19,11 @@ body {
 .header h2 {
    color: #111211;
 }
+.post {
+    font-size: 10px;
+    color: black;
+}
+
 .logo {
     width: 600px;
  }
