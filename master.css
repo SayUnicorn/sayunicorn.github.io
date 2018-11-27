@@ -31,8 +31,10 @@ body {
     width: 100px;
  }
 
-.image {
-  margin: auto;  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navbar {
     overflow: hidden;
