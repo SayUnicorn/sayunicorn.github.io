@@ -31,6 +31,9 @@ body {
     width: 100px;
  }
 
+.image {
+  margin: auto;  
+}
 .navbar {
     overflow: hidden;
     background-color: #333;
