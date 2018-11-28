@@ -15,6 +15,7 @@ body {
 }
 .header h2 {
    color: #111211;
+    text-align: right;
 }
 .post {
     color: black;
