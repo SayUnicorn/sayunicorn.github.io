@@ -12,12 +12,16 @@
   <h1>Parker May - Graphic Design</h1>
 </div>
 <nav>
-  <div id="navbar">
+  <div class="topnav" id="myTopnav">
     <div>
-      <a class="active" href="https://pmay.space">Parker May</a>
-      <a href="about.html">About</a>
-      <a href="my-work.html">My Work</a>
-      <a href="contact.html">Contact</a>
+      <a href="https://pmay.space"><span class="title">Parker May</span><span class="short-title">Pmay</span></a>
+      <a href="about.html" style="font-size: 25px;margin: 4px;">About</a>
+      <a href="my-work.html" style="font-size: 25px;margin: 4px;">My Work</a>
+      <a href="contact.html" style="font-size: 25px;margin: 4px;">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="font-size:35px;"></i>
+  </a>
+  </div>
   </div>
 
 </nav>
@@ -37,22 +41,9 @@
   </div>
   
 
-  <script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
+  </div>
 </body>
-  <footer class="footer" style="background-color:#333333;padding: 1%;color:#ffffff;text-align: center;">
+<footer class="footer" style="background-color:#333333;padding: 1%;color:#ffffff;text-align: center;">
   <p>Copyright Parker May 2018</p>
 </footer>
 </html>
