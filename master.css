@@ -59,11 +59,6 @@ body {
     background-color: #ddd;
     color: black;
 }
-.sticky {
-    postition: fixed;
-    top: 0;
-    width: 100%;
-}
 .navbar a.active {
     background-color: #666;
     color: white;
