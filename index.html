@@ -39,7 +39,17 @@
       <p>My next step in my website building process is to add animation and pages to the navigation menu. I feel like in the amount of time that I have spent on this I have done
         well especially because I have never done any html or coding in general.</p>
   </div>
+  window.onscroll = function() {myFunction()};
   
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
   </div>
 </body>
