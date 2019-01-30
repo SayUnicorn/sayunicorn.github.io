@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<link rel="stylesheet" href="master.css">
-<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<html>
+<title>Pmay - Home</title>
 <script src="master.js"></script>
-<title>Parker May</title>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<div class="header">
-  <h1>Parker May</h1>
+<link rel="stylesheet" href="master.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+<div class="w3-sidebar w3-bar-block w3-dark-grey w3-card" style="width:160px;">
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+  Keyboards <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demoAcc" class="w3-hide w3-white w3-card">
+    <a href="keyboard-gaming.html" class="w3-bar-item w3-button">Gaming</a>
+    <a href="#" class="w3-bar-item w3-button">Office</a>
+  </div>
+    <button class="w3-button w3-block w3-left-align" onclick="myDropFunc()">
+      Mice <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">Gaming</a>
+      <a href="#" class="w3-bar-item w3-button">Office</a>
+    </div>
+  </div>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 </div>
-<nav>
-  <div class="topnav" id="myTopnav">
-    <div>
-      <a href="https://pmay.space"><span class="title">Parker May</span><span class="short-title">Pmay</span></a>
-      <a href="about.html" style="font-size: 25px;margin: 4px;">About</a>
-      <a href="my-work.html" style="font-size: 25px;margin: 4px;">My Work</a>
-      <a href="contact.html" style="font-size: 25px;margin: 4px;">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars" style="font-size:35px;"></i>
-  </a>
-  </div>
-  </div>
-
-</nav>
-
-    <div class="card">
-      <h2>Welcome</h2>
-      <h5>Update</h5>
-      <p>It has been adressed to me that I do not update this website enough. I have begun adding multiple different small games and apps created in code.org for a class.
-      With this, I plan on updating the games and apps to make them better and more functional. </p>
-  </div>
-
-  </div>
+<div class="w3-display-container w3-text-white">
+  <img src="https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="height: 50%">
+  <div class="w3-display-middle w3-large" style="padding-left: 200px"><h1>Welcome</h1></div>
+</div>
 </body>
-<footer class="footer" style="background-color:#333333;padding: 1%;color:#ffffff;text-align: center;">
-  <p>Copyright Parker May 2018</p>
-</footer>
 </html>
